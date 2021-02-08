@@ -38,7 +38,7 @@ Load the integration by adding the following to your `configuration.yaml`. When 
 hello_service:
 ```
 
-Open the frontend and in the sidebar, click the first icon in the developer tool section. This will open the Call Service developer tool. On the right, find your service and click on it. This will automatically fill in the correct values.
+Open the frontend and in the sidebar, click Developer Tools and navigate to the Services section. This will open the Call Service developer tool. On the right, find your service and click on it. This will automatically fill in the correct values.
 
 Pressing "Call Service" will now call your service without any parameters. This will cause your service to create a state with the default name 'World'. If you want to specify the name, you have to specify parameters. Add the following JSON as Service Data and press "Call Service again".
 
